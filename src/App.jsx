@@ -18,7 +18,8 @@ import {
   Layers,
   Award,
   ArrowRight,
-  ExternalLink
+  ExternalLink,
+  Code
 } from 'lucide-react';
 
 export default function App() {
@@ -223,9 +224,14 @@ export default function App() {
         <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
           
           <div className="space-y-6">
-            <span className="text-amber-400 text-xs font-bold uppercase tracking-widest bg-amber-400/10 px-3 py-1 rounded-full border border-amber-400/20">
-              Verified Workshop
-            </span>
+            <div className="flex flex-wrap items-center gap-3">
+              <span className="text-amber-400 text-xs font-bold uppercase tracking-widest bg-amber-400/10 px-3 py-1 rounded-full border border-amber-400/20">
+                Verified Workshop
+              </span>
+              <span className="text-slate-400 text-xs font-semibold bg-white/5 px-3 py-1 rounded-full border border-white/10">
+                C.R. No: 145024/2
+              </span>
+            </div>
             <h2 className="text-3xl sm:text-4xl font-black text-white">
               Al Juzraa Auto Repair Garage
             </h2>
@@ -410,9 +416,30 @@ export default function App() {
       </section>
 
       {/* Footer with Xenosys Credit & Site Link */}
-      <footer className="border-t border-white/10 py-8 text-center text-slate-500 text-xs space-y-2">
-        <p>© 2026 Al Juzraa Auto Electrician. All rights reserved.</p>
+      <footer className="border-t border-white/10 py-8 text-center text-slate-500 text-xs space-y-3">
+        <p>© 2026 Al Juzraa Auto Electrician. All rights reserved. | C.R. No: 145024/2</p>
         
+        <div className="flex items-center justify-center gap-2 text-slate-400 text-[11px]">
+          <Code size={14} className="text-amber-400" />
+          <span>Developed & Maintained by</span>
+          <a 
+            href="https://xenosys.site" 
+            target="_blank" 
+            rel="noreferrer"
+            className="font-bold text-amber-400 hover:text-amber-300 transition underline underline-offset-4"
+          >
+            @Xenosys Qatar
+          </a>
+          <span>•</span>
+          <a 
+            href="https://wa.me/97400000000" 
+            target="_blank" 
+            rel="noreferrer"
+            className="text-emerald-400 hover:text-emerald-300 transition flex items-center gap-1 font-semibold"
+          >
+            <MessageCircle size={12} /> Contact Developer
+          </a>
+        </div>
       </footer>
 
     </div>
