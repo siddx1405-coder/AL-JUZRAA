@@ -412,17 +412,7 @@ export default function App() {
       {/* Footer with Xenosys Credit & Site Link */}
       <footer className="border-t border-white/10 py-8 text-center text-slate-500 text-xs space-y-2">
         <p>© 2026 Al Juzraa Auto Electrician. All rights reserved.</p>
-        <p>
-          Designed & Developed by{' '}
-          <a 
-            href="https://www.xenosysweb.com/" 
-            target="_blank" 
-            rel="noreferrer" 
-            className="text-amber-400 hover:text-amber-300 font-bold underline transition"
-          >
-            Xenosys
-          </a>
-        </p>
+        
       </footer>
 
     </div>
