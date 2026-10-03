@@ -83,7 +83,7 @@ export default function App() {
           {/* Action CTAs */}
           <div className="flex items-center gap-3">
             <a 
-              href="https://wa.me/97400000000" 
+              href="https://wa.me/97470992495" 
               target="_blank" 
               rel="noreferrer"
               className="hidden sm:inline-flex items-center gap-2 bg-emerald-500/10 hover:bg-emerald-500/20 text-emerald-400 border border-emerald-500/30 font-bold px-4 py-2.5 rounded-xl transition text-xs backdrop-blur-md"
@@ -91,7 +91,7 @@ export default function App() {
               <MessageCircle size={16} /> WhatsApp
             </a>
             <a 
-              href="tel:+97400000000" 
+              href="tel:+97477904111" 
               className="inline-flex items-center gap-2 bg-gradient-to-r from-amber-400 to-amber-500 hover:from-amber-300 hover:to-amber-400 text-black font-extrabold px-5 py-2.5 rounded-xl transition text-xs shadow-xl shadow-amber-500/20 hover:scale-[1.02] active:scale-[0.98]"
             >
               <Phone size={16} className="fill-black" />
@@ -336,7 +336,7 @@ export default function App() {
 
                 <div className="p-6 pt-0">
                   <a 
-                    href="tel:+97400000000" 
+                    href="tel:+97477904111" 
                     className="inline-flex items-center gap-2 text-xs font-bold text-amber-400 hover:text-amber-300 transition"
                   >
                     <span>Book Service</span>
@@ -433,7 +433,7 @@ export default function App() {
           </a>
           <span>•</span>
           <a 
-            href="https://wa.me/97400000000" 
+            href="https://wa.me/97470992495" 
             target="_blank" 
             rel="noreferrer"
             className="text-emerald-400 hover:text-emerald-300 transition flex items-center gap-1 font-semibold"
